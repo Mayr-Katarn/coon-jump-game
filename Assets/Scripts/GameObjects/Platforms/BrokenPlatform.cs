@@ -42,7 +42,6 @@ public class BrokenPlatform : StaticPlatform
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //Rigidbody2D playerRigidBody = collision.gameObject.CompareTag("Player") ? collision.gameObject.GetComponent<PlayerController>().GetRigidbody() : null;
         if (collision.gameObject.CompareTag("Player")) Broke();
     }
     #endregion

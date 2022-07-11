@@ -50,9 +50,10 @@ MonoBehaviour:
   _render: {fileID: 6431621257456385500}
   _jumpFlySprite: {fileID: 21300000, guid: cdce6f51c6d931e47aa474a55ad527d3, type: 3}
   _jumpStartSprite: {fileID: 21300000, guid: 02ba8b355c3c22140a06aa9c9feac229, type: 3}
-  _maxMoveSpeed: 2.5
-  _jumpVelocity: 10
-  isGoinDown: 0
+  _jumpVelocity: 11
+  _keyBoardSensitivity: 4
+  _arrowsSensitivity: 3
+  _gyroscopeSensitivity: 10
 --- !u!61 &6137515136253766351
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -8,9 +8,15 @@ public class GameUiController : MonoBehaviour
     [SerializeField] private GameObject _gameUi;
     [SerializeField] private GameObject _pauseMenu;
     [SerializeField] private GameObject _gameOverMenu;
+    [SerializeField] private GameObject _screenArrows;
     #endregion
 
     #region METHODS
+    private void Start()
+    {
+        _screenArrows.SetActive(GameConfig.InputType == InputType.Arrows);
+    }
+
     private void OnEnable()
     {
         EventManager.OnTogglePauseMenu.AddListener(TogglePauseMenu);
