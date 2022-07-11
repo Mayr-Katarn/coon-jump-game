@@ -1,7 +1,7 @@
+using UnityEditor.SceneManagement;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
-using UnityEditor.SceneManagement;
 
 [CustomEditor(typeof(LevelGenerator))]
 public class LevelGaneratorGUI : Editor

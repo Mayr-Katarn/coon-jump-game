@@ -12,6 +12,7 @@ public class InputToggle : MonoBehaviour
     private void Start()
     {
         _toggle = GetComponent<Toggle>();
+        OnValueChanged();
     }
 
     public void OnValueChanged()
